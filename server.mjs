@@ -11,7 +11,7 @@ import {
 } from './helper.mjs'
 
 const METHOD = process.env.METHOD === 'aes-256-gcm' ? 'aes-256-gcm' : 'chacha20-poly1305'
-const PASS   = process.env.PASS    || 'secret'
+const PASS   = process.env.PASS    || 'ayoeiuhfaisdhSEswf3223'
 const PORT   = process.env.PORT    ||  80
 
 const KEY_SIZE  = keySize[METHOD]
